@@ -15,6 +15,10 @@ A Telegram bot that periodically updates you with ~~Tweets~~ Xs, from your favor
    ```bash
    pip install apscheduler
    ```
+4.1 alternatively, use
+   ```bash
+   pip install -r requirements.txt
+   ```
    Alternatively, you can use Windows' Task Scheduler instead, don't provide the --inf flag in this case to avoid the scheduler running multiple instances of the script.
 5. A [~~Twitter~~ X](https://developer.x.com/en/portal/products) API Bearer Token. (Do not share this with anyone unless you know what you're doing)
 6. A [Telegram Bot](https://t.me/BotFather) token. (Ditto)
